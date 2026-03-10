@@ -1,174 +1,158 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Text Case Converter",
+  title: "Text Case Converter — Instantly Convert Text Between camelCase, snake_case & More",
+  description: "Free online text case converter. Transform text between camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, sentence case, and 10+ more formats. 100% browser-based, no data leaves your device.",
+  url: "https://text-case-converter.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
   // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "CaseSensitive",
+  brandAccentColor: "#8b5cf6", // violet accent for OG image gradient
 
   // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "text case converter",
+    "camelCase converter",
+    "snake_case converter",
+    "kebab-case converter",
+    "PascalCase converter",
+    "text transformation tool",
+    "case converter online",
+    "string case converter",
+    "variable naming converter",
+    "SCREAMING_SNAKE_CASE",
+    "title case converter",
+    "sentence case converter",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
   // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#7c3aed", // violet-600
 
   // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
+    "https://github.com/Jagodana-Studio-Private-Limited",
+    "https://www.linkedin.com/company/jagodana",
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/text-case-converter",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about: "Text Case Converter is a free, privacy-first tool that transforms text between 12+ naming conventions used in programming, writing, and design. Built by Jagodana — no sign-up, no tracking, no data leaves your browser.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "12+ case formats (camelCase, snake_case, kebab-case, and more)",
+      "One-click copy to clipboard",
+      "Live preview as you type",
+      "100% browser-based — your text never leaves your device",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free Developer Tool",
+    titleLine1: "Convert Text Between",
+    titleGradient: "Any Case Format",
+    subtitle: "Instantly transform text between camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, and 7+ more formats. Perfect for developers, writers, and anyone who juggles naming conventions.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🔄",
+      title: "12+ Case Formats",
+      description: "From camelCase to SCREAMING_SNAKE_CASE, dotted.case to path/case — every convention you need.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "⚡",
+      title: "Instant Conversion",
+      description: "Results update as you type. One-click copy any format to your clipboard.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "🔒",
+      title: "Privacy First",
+      description: "100% client-side. Your text never leaves your browser — zero server requests.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
-    },
-    {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "JSON Formatter",
+      url: "https://json-formatter.tools.jagodana.com",
+      icon: "📋",
+      description: "Format, validate, and beautify JSON data instantly.",
     },
     {
       name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
+      url: "https://regex-playground.tools.jagodana.com",
       icon: "🧪",
       description: "Build, test & debug regular expressions in real-time.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "Diff Forge",
+      url: "https://diff-forge.tools.jagodana.com",
+      icon: "🔀",
+      description: "Compare text and code side by side with syntax highlighting.",
+    },
+    {
+      name: "Cron Expression Visualizer",
+      url: "https://cron-expression-visualizer.tools.jagodana.com",
+      icon: "⏰",
+      description: "Build and visualize cron expressions with a human-readable preview.",
     },
     {
       name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
+      url: "https://color-palette-explorer.tools.jagodana.com",
+      icon: "🎨",
       description: "Extract color palettes from any image.",
     },
     {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "Fluid Type Scale",
+      url: "https://fluid-type-scale.tools.jagodana.com",
+      icon: "📐",
+      description: "Generate responsive CSS typography with clamp().",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    { name: "Paste or type your text", text: "Enter any text into the input area — variable names, sentences, or entire paragraphs.", url: "" },
+    { name: "See all conversions instantly", text: "All 12+ case formats are computed in real-time and displayed in a grid below.", url: "" },
+    { name: "Copy the format you need", text: "Click the copy button next to any format to copy it to your clipboard instantly.", url: "" },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT30S",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What case formats does this tool support?",
+      answer: "We support 12+ formats: camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE, kebab-case, SCREAMING-KEBAB-CASE, dot.case, path/case, Title Case, Sentence case, UPPER CASE, lower case, and more.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Is my text sent to a server?",
+      answer: "No. All conversions happen 100% in your browser using JavaScript. Your text never leaves your device — there are zero network requests involved in the conversion.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Can I convert variable names between programming languages?",
+      answer: "Yes! That's the primary use case. Convert between JavaScript's camelCase, Python's snake_case, CSS's kebab-case, constants' SCREAMING_SNAKE_CASE, and more — all in one place.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "Does it handle numbers and special characters?",
+      answer: "Yes. The converter intelligently handles numbers within words (e.g., 'myVar2Name'), preserves meaningful separators, and strips special characters that don't belong in identifiers.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "Text Case Converter — Instantly Convert Text Between camelCase, snake_case & More",
+      description: "Free online text case converter. Transform text between camelCase, PascalCase, snake_case, kebab-case, SCREAMING_SNAKE_CASE, Title Case, sentence case, and 10+ more formats.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
